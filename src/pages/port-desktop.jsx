@@ -89,100 +89,80 @@ export default function Port() {
               className="flex flex-col w-full gap-8"
               style={{
                 maskImage:
-                  "linear-gradient(to right, transparent, black 40%, black 60%, transparent)",
+                  "linear-gradient(to right, transparent, black 30%, black 70%, transparent)",
               }}
             >
-              <div className="flex justify-center gap-12 w-full animate-moveRight ">
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/php.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/c.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/python.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/java.svg" alt="" className="w-2/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/go.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/php.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/c.svg" alt="" className="w-3/5" />
-                </div>
+              <div className="flex justify-center gap-8 w-full animate-moveRight">
+                {["php","c", "python", "java", "go","php" ].map((tech) => (
+                  <div
+                    key={tech}
+                    className="flex items-center justify-center rounded-full shadow-inner"
+                    style={{ width: "8vw", height: "8vw" }}
+                  >
+                    <img
+                      src={`/images/${tech}.svg`}
+                      alt={tech}
+                      className="w-3/5 h-3/5"
+                    />
+                  </div>
+                ))}
               </div>
 
               <div className="flex justify-center gap-12 w-full animate-moveLeft">
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/js.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/html.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/css.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-56 h-28 bg-stone-50">
-                  <img src="/images/node.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/sql.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/js.svg" alt="" className="w-3/5" />
-                </div>
+                {["js", "html", "css", "node", "sql","js"].map((tech) => (
+                  <div
+                    key={tech}
+                    className="flex items-center justify-center rounded-full shadow-inner"
+                    style={{ width: "8vw", height: "8vw" }}
+                  >
+                    <img
+                      src={`/images/${tech}.svg`}
+                      alt={tech}
+                      className="w-3/5 h-3/5"
+                    />
+                  </div>
+                ))}
               </div>
 
               <div className="flex justify-center gap-12 w-full animate-moveRight">
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/react.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/vite.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/laravel.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/tailwind.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/daisyui.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/bootstrap.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/react.svg" alt="" className="w-3/5" />
-                </div>
+                {[
+                  "react",
+                  "vite",
+                  "laravel",
+                  "tailwind",
+                  "daisyui",
+                  "bootstrap",
+                ].map((tech) => (
+                  <div
+                    key={tech}
+                    className="flex  items-center justify-center rounded-full shadow-inner"
+                    style={{ width: "8vw", height: "8vw" }}
+                  >
+                    <img
+                      src={`/images/${tech}.svg`}
+                      alt={tech}
+                      className="w-3/5 h-3/5"
+                    />
+                  </div>
+                ))}
               </div>
 
-              <div className="flex justify-center gap-12 w-full animate-moveLeft">
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/oracle.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/figma.svg" alt="" className="w-2/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/unity.svg" alt="" className="w-3/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/mysql.svg" alt="" className="w-2/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/mongodb.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/oracle.svg" alt="" className="w-4/5" />
-                </div>
-                <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="/images/figma.svg" alt="" className="w-2/5" />
-                </div>
+              <div className="flex items-center justify-center gap-12 w-full animate-moveLeft">
+                {["oracle", "figma", "unity", "mysql", "mongodb"].map(
+                  (tech) => (
+                    <div
+                      key={tech}
+                      className="flex justify-center rounded-full shadow-inner"
+                      style={{ width: "8vw", height: "8vw" }}
+                    >
+                      <img
+                        src={`/images/${tech}.svg`}
+                        alt={tech}
+                        className="w-3/5 h-3/5"
+                      />
+                    </div>
+                  )
+                )}
               </div>
             </div>
           </div>
@@ -201,7 +181,7 @@ export default function Port() {
                 </div>
                 <div>Experience</div>
               </div>
-              <div className="flex h-full justify-center gap-16 text-sm">
+              <div className="flex h-full justify-center gap-4 text-sm">
                 <a
                   href="https://tworlds.netlify.app/"
                   target="_blank"
@@ -217,7 +197,7 @@ export default function Port() {
                     </figure>
                     <div className="card-body flex-grow flex flex-col justify-between">
                       <h2 className="card-title text-sky-200 text-4xl">
-                        " Tworlds "
+                        Tworlds
                       </h2>
                       <p className="leading-loose mt-4">
                         ( Game 2D puzzle ) <br /> <br />
@@ -248,7 +228,7 @@ export default function Port() {
                     </figure>
                     <div className="card-body flex-grow flex flex-col justify-between">
                       <h2 className="card-title text-sky-200 text-4xl">
-                        " SUNKUB "
+                        SUNKUB
                       </h2>
                       <p className="leading-loose mt-4">
                         ( Stock Trading Website ) <br /> <br />
@@ -281,8 +261,8 @@ export default function Port() {
                       />
                     </figure>
                     <div className="card-body flex-grow flex flex-col justify-between">
-                      <h2 className="card-title text-sky-200">
-                        " Visual & Modeling "
+                      <h2 className="card-title text-sky-200 text-4xl">
+                        Visual & Modeling
                       </h2>
                       <p className="leading-loose mt-4">
                         ( Visualization and Modeling of E-commerce Customer
