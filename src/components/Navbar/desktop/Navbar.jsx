@@ -6,7 +6,7 @@ import "/src/components/Navbar/Navbar.css";
 export default function Navb() {
   const [activeTab, setActiveTab] = useState("Home");
 
-  const sections = ["Home", "AboutMe", "Skills", "Projects", "Activities", "Contact"];
+  const sections = ["Homed", "AboutMed", "Skillsd", "Projectsd", "Activitiesd", "Contactd"];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,7 +61,7 @@ export default function Navb() {
                   href={`#${section}`}
                   className={activeTab === section ? "active" : ""}
                 >
-                  {section.replace(/([A-Z])/g, " $1").trim()}
+                  {section.replace(/d$/, "").replace(/([A-Z])/g, " $1").trim()}
                 </a>
               </li>
             ))}
@@ -79,7 +79,7 @@ export default function Navb() {
                 onClick={() => setActiveTab(section)}
                 href={`#${section}`}
               >
-                {section.replace(/([A-Z])/g, " $1").trim()}
+                {section.replace(/d$/, "").replace(/([A-Z])/g, " $1").trim()}
               </a>
             </li>
           ))}

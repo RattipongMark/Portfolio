@@ -1,10 +1,10 @@
 import "/src/css/App.css";
 import "/src/index.css";
-import Navb from "/src/components/Navbar/Navbar.jsx";
+import Navb from "/src/components/Navbar/desktop/Navbar.jsx";
 import "/src/css/port.css";
 import "/src/js/port.js";
 
-// ipad
+
 
 export default function Port() {
   return (
@@ -16,9 +16,9 @@ export default function Port() {
       <div className="min-h-dvh w-full px-5 tracking-widest flex flex-col justify-center">
         {/* Home */}
 
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center"  id="Homed">
           <div
-            id="Home"
+           
             className="flex items-center w-full min-h-svh gap-10 px-36  justify-center"
           >
             <div className="w-2/3 max-w-fit basis-2/3 flex flex-col gap-5 px-14 ">
@@ -50,9 +50,9 @@ export default function Port() {
         </div>
 
         {/* aboutme */}
-        <div className="w-full flex justify-center ">
+        <div className="w-full flex justify-center " id="AboutMed">
           <div
-            id="AboutMe"
+
             className="flex items-center justify-center w-full min-h-svh gap-24 px-32"
           >
             <div className=" basis-2/4 w-1/2 grid justify-items-end">
@@ -91,9 +91,9 @@ export default function Port() {
         </div>
 
         {/* Skills*/}
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center"  id="Skillsd">
           <div
-            id="Skills"
+           
             className="flex items-center w-full min-h-svh gap-24 px-40 overflow-hidden"
           >
             <div
@@ -208,12 +208,12 @@ export default function Port() {
         </div>
 
         {/* Projects */}
-        <div className="w-full flex justify-center ">
+        <div className="w-full flex justify-center " id="Projectsd">
           <div
-            id="Projects"
+            
             className="flex justify-center items-center w-full min-h-svh gap-24 px-32  "
           >
-            <div className="flex flex-col w-fulll gap-16">
+            <div className="flex flex-col w-fulll gap-8">
               <div className="flex justify-center gap-4 text-7xl font-black ">
                 <div className="text-sky-400 w-3/12 max-w-72 ">
                   <div className="content">
@@ -240,7 +240,7 @@ export default function Port() {
                       </h2>
                       <p className="leading-loose mt-4">
                         ( Game 2D puzzle ) <br /> <br />
-                        <li>Learn how to use unity</li>
+                        <p>Tworlds is a puzzle-solving adventure game where players take on the role of a ghost trying to escape from a mystical forest. Along the way, they must solve various puzzles to uncover the path to freedom. The game challenges players to think in both the real world and the spirit world, creating a unique, immersive experience.</p>
                       </p>
                     </div>
                   </div>
@@ -314,9 +314,9 @@ export default function Port() {
         </div>
 
         {/* Activities */}
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center" id="Activitiesd">
           <div
-            id="Activities"
+            
             className="flex flex-col justify-center items-center w-full min-h-svh gap-8 px-32 "
           >
             <div className="flex justify-items-start w-full pl-4 text-7xl font-black">
@@ -391,9 +391,9 @@ export default function Port() {
         </div>
 
         {/* Contact */}
-        <div className="w-full flex justify-center">
+        <div id="Contactd" className="w-full flex justify-center">
           <div
-            id="Contact"
+            
             className="flex items-center w-full min-h-svh px-32 "
           >
             <div className="w-full flex gap-24">

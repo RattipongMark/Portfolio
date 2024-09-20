@@ -6,18 +6,15 @@ import "/src/components/Navbar/Navbar.css";
 export default function Navb() {
   const [activeTab, setActiveTab] = useState("Home");
 
-  const sections = ["Home", "AboutMe", "Skills", "Projects", "Activities", "Contact"];
+  const sections = ["Homep", "AboutMep", "Skillsp", "Projectsp", "Activitiesp", "Contactp"];
 
   useEffect(() => {
     const handleScroll = () => {
       sections.forEach((section) => {
         const element = document.getElementById(section);
-        if (element) {
-          const rect = element.getBoundingClientRect();
-          const offset = 150;  // ปรับค่านี้ตามความสูงของ navigation bar
-          if (rect.top <= offset && rect.bottom >= offset) {
-            setActiveTab(section);
-          }
+        const rect = element.getBoundingClientRect();
+        if (rect.top <= 100 && rect.bottom >= 100) {
+          setActiveTab(section);
         }
       });
     };
@@ -26,9 +23,17 @@ export default function Navb() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [sections]);
 
+  const handleClick = (section) => {
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setActiveTab(section); // Update active tab when clicked
+    }
+  };
+
   return (
     <div className="navbar bg-white/70 backdrop-blur fixed px-2 lg:px-5 text-stone-500 font-thin z-50">
-      <div className="navbar-start ">
+      <div className="navbar-start">
         <div className="dropdown">
           <div
             tabIndex={0}
@@ -53,20 +58,16 @@ export default function Navb() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-white  rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {sections.map((section) => (
               <li key={section}>
-                <a
-                  href={`#${section}`}
-                  className={activeTab === section ? "active" : ""}
-                >
-                  {section.replace(/([A-Z])/g, " $1").trim()}
-                </a>
+                <a onClick={() => handleClick(section)}>{section.replace(/p$/, "").replace(/([A-Z])/g, " $1").trim()}</a>
               </li>
             ))}
           </ul>
         </div>
+
         <a className="btn btn-ghost text-xl">My Portfolio</a>
       </div>
 
@@ -76,10 +77,9 @@ export default function Navb() {
             <li key={section}>
               <a
                 className={activeTab === section ? "active" : ""}
-                onClick={() => setActiveTab(section)}
-                href={`#${section}`}
+                onClick={() => handleClick(section)}
               >
-                {section.replace(/([A-Z])/g, " $1").trim()}
+                {section.replace(/p$/, "").replace(/([A-Z])/g, " $1").trim()}
               </a>
             </li>
           ))}
@@ -87,7 +87,11 @@ export default function Navb() {
       </div>
 
       <div className="navbar-end">
-        <a className="btn btn-sm bg-sky-400 hover:bg-sky-700 text-white font-light border-0" href="/images/Rattipong_CV.pdf" download="Rattipong_CV.pdf">
+        <a
+          className="btn btn-sm bg-sky-400 hover:bg-sky-700 text-white font-light border-0"
+          href="/images/Rattipong_CV.pdf"
+          download="Rattipong_CV.pdf"
+        >
           Download CV
         </a>
       </div>
