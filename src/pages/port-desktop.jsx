@@ -44,7 +44,7 @@ export default function Port() {
               </div>
             </div>
             <div className="basis-1/3 w-1/3 max-w-fit grid justify-items-start">
-              <img src="/src/assets/mypic.png" className="slide-in" />
+              <img src="/images/mypic.png" className="slide-in" />
             </div>
           </div>
         </div>
