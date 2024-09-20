@@ -93,7 +93,7 @@ export default function Navb() {
       </div>
 
       <div className="navbar-end">
-        <a className="btn btn-sm bg-sky-400 hover:bg-sky-700 text-white font-light border-0" href="src/assets/Rattipong_CV.pdf" download="Rattipong_CV.pdf">
+        <a className="btn btn-sm bg-sky-400 hover:bg-sky-700 text-white font-light border-0" href="/images/Rattipong_CV.pdf" download="Rattipong_CV.pdf">
           Download CV
         </a>
       </div>
