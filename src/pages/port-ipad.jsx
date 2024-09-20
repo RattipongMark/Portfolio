@@ -204,9 +204,9 @@ export default function Port() {
             
             className="flex justify-center items-center w-full min-h-svh gap-24 px-24  "
           >
-            <div className="flex flex-col w-fulll gap-8">
-              <div className="flex justify-center gap-4 text-5xl font-black ">
-                <div className="text-sky-400 w-3/12 max-w-72 mr-4">
+            <div className="flex flex-col w-fulll gap-4">
+              <div className="flex justify-center text-5xl font-black ">
+                <div className="text-sky-400 w-48 ">
                   <div className="content">
                     <h2>Project</h2>
                     <h2>Project</h2>
