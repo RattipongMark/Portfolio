@@ -56,7 +56,7 @@ export default function Port() {
             className="flex items-center justify-center w-full min-h-svh gap-24 px-32"
           >
             <div className=" basis-2/4 w-1/2 grid justify-items-end">
-              <img src="src/assets/aboutme.png" alt="" className="" />
+              <img src="/images/aboutme.png" alt="" className="" />
             </div>
 
             <div className="flex flex-col gap-8 basis-2/4">
@@ -105,102 +105,102 @@ export default function Port() {
             >
               <div className="flex justify-center gap-12 w-full animate-moveRight ">
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/php.svg" alt="" className="w-4/5" />
+                  <img src="/images/php.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/c.svg" alt="" className="w-3/5" />
+                  <img src="/images/c.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/python.svg" alt="" className="w-3/5" />
+                  <img src="/images/python.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/java.svg" alt="" className="w-2/5" />
+                  <img src="/images/java.svg" alt="" className="w-2/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/go.svg" alt="" className="w-4/5" />
+                  <img src="/images/go.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/php.svg" alt="" className="w-4/5" />
+                  <img src="/images/php.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/c.svg" alt="" className="w-3/5" />
+                  <img src="/images/c.svg" alt="" className="w-3/5" />
                 </div>
               </div>
 
               <div className="flex justify-center gap-12 w-full animate-moveLeft">
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/js.svg" alt="" className="w-3/5" />
+                  <img src="/images/js.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/html.svg" alt="" className="w-3/5" />
+                  <img src="/images/html.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/css.svg" alt="" className="w-3/5" />
+                  <img src="/images/css.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-56 h-28 bg-stone-50">
-                  <img src="src/assets/node.svg" alt="" className="w-4/5" />
+                  <img src="/images/node.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/sql.svg" alt="" className="w-4/5" />
+                  <img src="/images/sql.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/js.svg" alt="" className="w-3/5" />
+                  <img src="/images/js.svg" alt="" className="w-3/5" />
                 </div>
               </div>
 
               <div className="flex justify-center gap-12 w-full animate-moveRight">
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/react.svg" alt="" className="w-3/5" />
+                  <img src="/images/react.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/vite.svg" alt="" className="w-3/5" />
+                  <img src="/images/vite.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/laravel.svg" alt="" className="w-3/5" />
+                  <img src="/images/laravel.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
                   <img
-                    src="src/assets/tailwind.svg"
+                    src="/images/tailwind.svg"
                     alt=""
                     className="w-4/5"
                   />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/daisyui.svg" alt="" className="w-4/5" />
+                  <img src="/images/daisyui.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
                   <img
-                    src="src/assets/bootstrap.svg"
+                    src="/images/bootstrap.svg"
                     alt=""
                     className="w-4/5"
                   />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/react.svg" alt="" className="w-3/5" />
+                  <img src="/images/react.svg" alt="" className="w-3/5" />
                 </div>
               </div>
 
               <div className="flex justify-center gap-12 w-full animate-moveLeft">
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/oracle.svg" alt="" className="w-4/5" />
+                  <img src="/images/oracle.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/figma.svg" alt="" className="w-2/5" />
+                  <img src="/images/figma.svg" alt="" className="w-2/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/unity.svg" alt="" className="w-3/5" />
+                  <img src="/images/unity.svg" alt="" className="w-3/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/mysql.svg" alt="" className="w-2/5" />
+                  <img src="/images/mysql.svg" alt="" className="w-2/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/mongodb.svg" alt="" className="w-4/5" />
+                  <img src="/images/mongodb.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/oracle.svg" alt="" className="w-4/5" />
+                  <img src="/images/oracle.svg" alt="" className="w-4/5" />
                 </div>
                 <div className="flex justify-center rounded-full shadow-inner w-28 h-28 bg-stone-50">
-                  <img src="src/assets/figma.svg" alt="" className="w-2/5" />
+                  <img src="/images/figma.svg" alt="" className="w-2/5" />
                 </div>
               </div>
             </div>
@@ -232,7 +232,7 @@ export default function Port() {
                 >
                   <div className="card bg-white-100 image-full ">
                     <figure>
-                      <img src="src/assets/card_tw.svg" className="w-full" />
+                      <img src="/images/card_tw.svg" className="w-full" />
                     </figure>
                     <div className="card-body">
                       <h2 className="card-title text-sky-200 text-4xl">
@@ -253,7 +253,7 @@ export default function Port() {
                 >
                   <div className="card bg-base-100 image-full ">
                     <figure>
-                      <img src="src/assets/card_sk.svg" className="w-full" />
+                      <img src="/images/card_sk.svg" className="w-full" />
                     </figure>
                     <div className="card-body">
                       <h2 className="card-title text-sky-200 text-4xl">
@@ -283,7 +283,7 @@ export default function Port() {
                 >
                   <div className="card bg-base-100 image-full ">
                     <figure>
-                      <img src="src/assets/card_vm.svg" className="w-full" />
+                      <img src="/images/card_vm.svg" className="w-full" />
                     </figure>
                     <div className="card-body">
                       <h2 className="card-title text-sky-200">
@@ -343,14 +343,14 @@ export default function Port() {
                 </div>
                 <div className="flex w-full h-94 gap-4 mt-8">
                   <div className="w-1/2">
-                    <img src="src/assets/POSTER_KIND.png" alt="" />
+                    <img src="/images/POSTER_KIND.png" alt="" />
                   </div>
                   <div className="flex flex-col gap-4  justify-between w-1/2">
                     <div className="w-full">
-                      <img src="src/assets/kind.png" alt="" />
+                      <img src="/images/kind.png" alt="" />
                     </div>
                     <div className=" w-full">
-                      <img src="src/assets/kind-3.png" alt="" />
+                      <img src="/images/kind-3.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -379,10 +379,10 @@ export default function Port() {
                 </div>
                 <div className="flex w-full h-94 gap-4 mt-8">
                   <div className="w-1/2">
-                    <img src="src/assets/qtm-1.png" alt="" />
+                    <img src="/images/qtm-1.png" alt="" />
                   </div>
                   <div className="w-1/2">
-                    <img src="src/assets/qtm-2.jpg" alt="" />
+                    <img src="/images/qtm-2.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -402,25 +402,25 @@ export default function Port() {
                   <div className="text-2xl">CONTACT DETAILS</div>
                   <div className="flex items-center gap-4 mt-4">
                     <div>
-                      <img src="src/assets/Phone.svg" className="w-7/12" />
+                      <img src="/images/Phone.svg" className="w-7/12" />
                     </div>
                     <div>093-0989646</div>
                   </div>
                   <div className="flex items-center gap-4">
                     <div>
-                      <img src="src/assets/Mail.svg" className="w-7/12" />
+                      <img src="/images/Mail.svg" className="w-7/12" />
                     </div>
                     <div>Rattipong.saku@mail.kmutt.ac.th</div>
                   </div>
                   <div className="flex items-center gap-4">
                     <div>
-                      <img src="src/assets/Mail.svg" className="w-7/12" />
+                      <img src="/images/Mail.svg" className="w-7/12" />
                     </div>
                     <div>Rattipong.mark@gmail.com</div>
                   </div>
                   <div className="flex items-center gap-4">
                     <div>
-                      <img src="src/assets/Github.svg" className="w-7/12" />
+                      <img src="/images/Github.svg" className="w-7/12" />
                     </div>
                     <div>
                       <a href="https://github.com/RattipongMark">
@@ -437,7 +437,7 @@ export default function Port() {
                   <div className="text-2xl">SOCIAL</div>
                   <div className="flex items-center gap-4 mt-4">
                     <div>
-                      <img src="src/assets/Facebook.svg" className="w-7/12" />
+                      <img src="/images/Facebook.svg" className="w-7/12" />
                     </div>
                     <div>
                       <a href="https://www.facebook.com/rattipong.mark/">
@@ -447,7 +447,7 @@ export default function Port() {
                   </div>
                   <div className="flex items-center gap-4">
                     <div>
-                      <img src="src/assets/Instagram.svg" className="w-7/12" />
+                      <img src="/images/Instagram.svg" className="w-7/12" />
                     </div>
                     <div>
                       <a href="https://www.instagram.com/makk.rt/">makk.rt</a>
