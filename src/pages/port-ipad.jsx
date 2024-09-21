@@ -15,7 +15,7 @@ export default function Port() {
       <div className="min-h-dvh w-full px-2 tracking-widest flex flex-col justify-center">
         {/* Home */}
 
-        <div className="w-full flex justify-center" id="Home">
+        <div className="w-full flex justify-center" id="Homep">
           <div className="flex flex-col  items-center justify-center w-full min-h-svh  px-24 relative gap-16">
             <div className="w-full flex flex-col gap-8  justify-center ">
               <div className="flex items-end gap-2 justify-center">
