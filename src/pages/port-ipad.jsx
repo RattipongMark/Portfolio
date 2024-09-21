@@ -17,9 +17,9 @@ export default function Port() {
 
         <div className="w-full flex justify-center" id="Home">
           <div 
-            className="flex flex-col  w-full min-h-svh pt-48 px-24 relative"
+            className="flex flex-col  items-center justify-center w-full min-h-svh  px-24 relative gap-16"
           >
-            <div className="w-full flex flex-col gap-8 relative z-10 justify-center ">
+            <div className="w-full flex flex-col gap-8  justify-center ">
               <div className="flex items-end gap-2 justify-center">
                 <div className="text-2xl font-light text-slate-900 fade-in fade-in-delay-1">
                   Hi I am
@@ -35,14 +35,12 @@ export default function Port() {
                 SAKUNJEEN
               </div> */}
             </div>
-            <div className="w-full grid justify-items-center content-center absolute inset-0 ">
-              <img src="/images/mypic.png" className="slide-in w-7/12 z-40 pl-8 pt-24" />
-              <div className="flex flex-col justify-center gap-4 mt-2 fade-in fade-in-delay-4 relative z-10  mt-14">
+            <img src="/images/mypic.png" className="slide-in w-7/12 " />
+            <div className="flex flex-col justify-center gap-4 mt-2 fade-in fade-in-delay-4  ">
                 <div className=" flex  justify-center">I am a computer engineering student at</div>
                 <div className=" flex  justify-center">
                   King Mongkut's University of Technology Thonburi (KMUTT)
                 </div>
-            </div>
             </div>
             
           </div>
@@ -161,7 +159,7 @@ export default function Port() {
                   (tech) => (
                     <div
                       key={tech}
-                      className="flex justify-center rounded-full shadow-inner"
+                      className="flex items-center justify-center rounded-full shadow-inner"
                       style={{ width: "8vw", height: "8vw" }}
                     >
                       <img
@@ -179,130 +177,120 @@ export default function Port() {
         
         {/* Projects */}
         <div className="w-full flex justify-center " id="Projectsp">
-          <div
-            
-            className="flex justify-center items-center w-full min-h-svh gap-24 px-24  "
-          >
-            <div className="flex flex-col w-fulll gap-4">
-              <div className="flex justify-center text-5xl font-black ">
-                <div className="text-sky-400 w-48 ">
-                  <div className="content">
-                    <h2>Project</h2>
-                    <h2>Project</h2>
-                  </div>
-                </div>
-                <div>Experience</div>
-              </div>
-              <div className="flex flex-col justify-center gap-12 text-sm mt-12">
-                <a
-                  href="https://tworlds.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full max-h-1/3 hover:opacity-90"
-                >
-                  <div className="card bg-white-100 image-full max-h-96">
-                    <figure className="overflow-hidden">
-                      <img src="/images/card_tw.svg" className="w-full" />
-                    </figure >
-                    <div className="card-body">
-                      <h2 className="card-title text-sky-200 text-2xl">
-                         Tworlds
-                      </h2>
-                      <p className="leading-loose mt-4">
-                        ( Game 2D puzzle ) <br /> <br />
-                        <p>
-                          Tworlds is a puzzle-solving adventure game where
-                          players take on the role of a ghost trying to escape
-                          from a mystical forest. Along the way, they must solve
-                          various puzzles to uncover the path to freedom. The
-                          game challenges players to think in both the real
-                          world and the spirit world, creating a unique,
-                          immersive experience.
-                        </p>
-                      </p>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href="https://github.com/RattipongMark/sunkub"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full  max-h-1/3 hover:opacity-90 "
-                >
-                  <div className="card bg-base-100 image-full max-h-96">
-                    <figure>
-                      <img src="/images/card_sk.svg" className="w-full" />
-                    </figure>
-                    <div className="card-body">
-                      <h2 className="card-title text-sky-200 text-2xl">
-                        SUNKUB
-                      </h2>
-                      <p className="leading-loose mt-4">
-                        ( Stock Trading Website ) <br /> <br />
-                        <li>
-                          covering all stages from initial database design to
-                          data querying.{" "}
-                        </li>
-                        <li>Use LaravelFramework and MySQL</li>
-                        <li>
-                          Position: Fullstack Developer (specialized in Back-end
-                          development, including data querying and function
-                          creation).
-                        </li>
-                      </p>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href="https://github.com/RattipongMark/Visualization-and-Modeling"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full max-h-1/3 hover:opacity-90"
-                >
-                  <div className="card bg-base-100 image-full max-h-96">
-                    <figure>
-                      <img src="/images/card_vm.svg" className="w-full" />
-                    </figure>
-                    <div className="card-body">
-                      <h2 className="card-title text-sky-200 text-2xl">
-                        Visual & Modeling
-                      </h2>
-                      <p className="leading-loose mt-4">
-                        ( Visualization and Modeling of E-commerce Customer
-                        Churn ) <br /> <br />
-                        This is part of the Data Models course (CPE 232),
-                        involving the creation of EDA, visualization, and
-                        modeling using an e-commerce customer churn dataset.{" "}
-                        <br />
-                        <br />
-                        Modeling using four methods: <br />
-                        <ol>
-                          <li>1. Decision Tree</li>
-                          <li>2. Logistic Regression</li>
-                          <li>3. K-Neighbors Classifier</li>
-                          <li>4. Random Forest Classifier</li>
-                        </ol>
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
+  <div className="flex justify-center items-center w-full min-h-svh gap-24 px-24">
+    <div className="flex flex-col w-full gap-4">
+      <div className="flex justify-center text-5xl font-black flex-wrap">
+        <div className="text-sky-400 w-48">
+          <div className="content">
+            <h2>Project</h2>
+            <h2>Project</h2>
           </div>
         </div>
+        <div>Experience</div>
+      </div>
+      <div className="flex flex-col justify-center gap-12 text-sm mt-12">
+        <a
+          href="https://tworlds.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full hover:opacity-90"
+        >
+          <div className="relative card bg-white-100 image-full max-h-96">
+            <figure className="overflow-hidden">
+              <img src="/images/card_tw.svg" className="w-full" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-sky-200 text-2xl">Tworlds</h2>
+              <p className="leading-loose mt-4">
+                ( Game 2D puzzle ) <br /> <br />
+                <p>
+                  Tworlds is a puzzle-solving adventure game where players take on the role of a ghost trying to escape
+                  from a mystical forest. Along the way, they must solve various puzzles to uncover the path to freedom. 
+                  The game challenges players to think in both the real world and the spirit world, creating a unique, immersive experience.
+                </p>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://github.com/RattipongMark/sunkub"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full hover:opacity-90"
+        >
+          <div className="card bg-base-100 image-full max-h-96">
+            <figure>
+              <img src="/images/card_sk.svg" className="w-full" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-sky-200 text-2xl">SUNKUB</h2>
+              <p className="leading-loose mt-4">
+                ( Stock Trading Website ) <br /> <br />
+                <li>covering all stages from initial database design to data querying.</li>
+                <li>Use Laravel Framework and MySQL</li>
+                <li>
+                  Position: Fullstack Developer (specialized in Back-end development, including data querying and function creation).
+                </li>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://github.com/RattipongMark/Visualization-and-Modeling"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full hover:opacity-90"
+        >
+          <div className="card bg-base-100 image-full max-h-96">
+            <figure>
+              <img src="/images/card_vm.svg" className="w-full" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title text-sky-200 text-2xl">Visual & Modeling</h2>
+              <p className="leading-loose mt-4">
+                ( Visualization and Modeling of E-commerce Customer Churn ) <br /> <br />
+                This is part of the Data Models course (CPE 232), involving the creation of EDA, visualization, and modeling using an e-commerce customer churn dataset.
+                <br />
+                <br />
+                Modeling using four methods:
+                <ol>
+                  <li>1. Decision Tree</li>
+                  <li>2. Logistic Regression</li>
+                  <li>3. K-Neighbors Classifier</li>
+                  <li>4. Random Forest Classifier</li>
+                </ol>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style jsx>{`
+  @media (max-width: 1024px) {
+    .gap-24 {
+      gap: 12px;
+    }
+    .max-h-96 {
+      max-height: 30vh;
+    }
+  }
+`}</style>
+
         
         {/* Activities */}
         <div className="w-full flex justify-center" id="Activitiesp">
           <div
             
-            className="flex flex-col justify-center items-center w-full min-h-svh gap-8 px-24 "
+            className="flex flex-col justify-center items-center w-full min-h-svh gap-8 px-24 mt-36"
           >
             <div className="flex justify-items-start w-full pl-4 text-5xl font-black">
               <div>ACTIVIT</div>
               <div className="text-sky-400">IES</div>
             </div>
-            <div className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
-              <input type="checkbox" />
+            <div tabIndex={0} className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
               <div className="collapse-title flex gap-4 py-8">
                 <div className="text-xl font-black text-sky-400">
                   KIN-D YOU-D
@@ -335,8 +323,7 @@ export default function Port() {
               </div>
             </div>
 
-            <div className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
-              <input type="checkbox" />
+            <div tabIndex={0} className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
               <div className="collapse-title flex gap-4 py-8">
                 <div className="text-xl font-black text-sky-400">
                   SUMMER SCHOOL ON QUANTUM COMPUTING 2024

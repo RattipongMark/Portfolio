@@ -152,7 +152,7 @@ export default function Port() {
                   (tech) => (
                     <div
                       key={tech}
-                      className="flex justify-center rounded-full shadow-inner"
+                      className="flex items-center justify-center rounded-full shadow-inner"
                       style={{ width: "8vw", height: "8vw" }}
                     >
                       <img
@@ -295,8 +295,7 @@ export default function Port() {
               <div>ACTIVIT</div>
               <div className="text-sky-400">IES</div>
             </div>
-            <div className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
-              <input type="checkbox" />
+            <div  tabIndex={0} className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
               <div className="collapse-title flex gap-4 py-8">
                 <div className="text-xl font-black text-sky-400">
                   KIN-D YOU-D
@@ -329,8 +328,7 @@ export default function Port() {
               </div>
             </div>
 
-            <div className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
-              <input type="checkbox" />
+            <div  tabIndex={0} className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
               <div className="collapse-title flex gap-4 py-8">
                 <div className="text-xl font-black text-sky-400">
                   SUMMER SCHOOL ON QUANTUM COMPUTING 2024
