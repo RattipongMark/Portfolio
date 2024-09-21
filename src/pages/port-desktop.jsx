@@ -186,7 +186,7 @@ export default function Port() {
                   href="https://tworlds.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-1/3 min-h-full hover:opacity-90 bg-red-100"
+                  className="w-1/3 min-h-full hover:opacity-90 "
                 >
                   <div className="card bg-white-100 image-full h-full flex flex-col">
                     <figure className="flex-shrink-0">
@@ -289,8 +289,8 @@ export default function Port() {
         </div>
 
         {/* Activities */}
-        <div className="w-full flex justify-center" id="Activitiesd">
-          <div className="flex flex-col justify-center items-center w-full min-h-svh gap-8 px-32 ">
+        <div className="w-full flex justify-center my-16" id="Activitiesd">
+          <div className="flex flex-col justify-center items-center w-full min-h-svh gap-8 px-32">
             <div className="flex justify-items-start w-full pl-4 text-7xl font-black">
               <div>ACTIVIT</div>
               <div className="text-sky-400">IES</div>

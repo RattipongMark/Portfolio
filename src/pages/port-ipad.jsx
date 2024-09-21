@@ -16,9 +16,7 @@ export default function Port() {
         {/* Home */}
 
         <div className="w-full flex justify-center" id="Home">
-          <div 
-            className="flex flex-col  items-center justify-center w-full min-h-svh  px-24 relative gap-16"
-          >
+          <div className="flex flex-col  items-center justify-center w-full min-h-svh  px-24 relative gap-16">
             <div className="w-full flex flex-col gap-8  justify-center ">
               <div className="flex items-end gap-2 justify-center">
                 <div className="text-2xl font-light text-slate-900 fade-in fade-in-delay-1">
@@ -37,29 +35,27 @@ export default function Port() {
             </div>
             <img src="/images/mypic.png" className="slide-in w-7/12 " />
             <div className="flex flex-col justify-center gap-4 mt-2 fade-in fade-in-delay-4  ">
-                <div className=" flex  justify-center">I am a computer engineering student at</div>
-                <div className=" flex  justify-center">
-                  King Mongkut's University of Technology Thonburi (KMUTT)
-                </div>
+              <div className=" flex  justify-center">
+                I am a computer engineering student at
+              </div>
+              <div className=" flex  justify-center">
+                King Mongkut's University of Technology Thonburi (KMUTT)
+              </div>
             </div>
-            
           </div>
         </div>
-         <div className="w-full  flex justify-center"><div className="h-0.5 bg-stone-100 w-2/3 rounded-lg"></div></div>       
+        <div className="w-full  flex justify-center">
+          <div className="h-0.5 bg-stone-100 w-2/3 rounded-lg"></div>
+        </div>
         {/* aboutme */}
         <div className="w-full flex justify-center " id="AboutMep">
-          <div
-            
-            className="flex flex-col items-center justify-center w-full min-h-svh gap-8 px-24"
-          >
-            
-
+          <div className="flex flex-col items-center justify-center w-full min-h-svh gap-8 px-24">
             <div className="flex flex-col gap-8 ">
               <div className="text-5xl font-black flex gap-4">
                 <div>About </div>
                 <div className="text-sky-400 bounce">Me</div>
               </div>
-              
+
               <div className="flex flex-col gap-2 text-sm">
                 <div>Date of Birth: July 28, 2004</div>
                 <div>Gender: Male</div>
@@ -88,7 +84,9 @@ export default function Port() {
             </div>
           </div>
         </div>
-        <div className="w-full  flex justify-center"><div className="h-0.5 bg-stone-100 w-2/3 rounded-lg"></div></div> 
+        <div className="w-full  flex justify-center">
+          <div className="h-0.5 bg-stone-100 w-2/3 rounded-lg"></div>
+        </div>
         {/* Skills*/}
         <div className="w-full flex justify-center" id="Skillsp">
           <div className="flex items-center w-full min-h-svh gap-24 px-16 overflow-hidden">
@@ -100,7 +98,7 @@ export default function Port() {
               }}
             >
               <div className="flex justify-center gap-4 w-full animate-moveRight">
-                {["php","c", "python", "java", "go","php" ].map((tech) => (
+                {["php", "c", "python", "java", "go", "php"].map((tech) => (
                   <div
                     key={tech}
                     className="flex items-center justify-center rounded-full shadow-inner"
@@ -116,7 +114,7 @@ export default function Port() {
               </div>
 
               <div className="flex justify-center gap-4 w-full animate-moveLeft">
-                {["js", "html", "css", "node", "sql","js"].map((tech) => (
+                {["js", "html", "css", "node", "sql", "js"].map((tech) => (
                   <div
                     key={tech}
                     className="flex items-center justify-center rounded-full shadow-inner"
@@ -155,7 +153,7 @@ export default function Port() {
               </div>
 
               <div className="flex items-center justify-center gap-4 w-full animate-moveLeft">
-                {["oracle", "figma", "unity", "mysql", "mongodb","oracle"].map(
+                {["oracle", "figma", "unity", "mysql", "mongodb", "oracle"].map(
                   (tech) => (
                     <div
                       key={tech}
@@ -174,123 +172,130 @@ export default function Port() {
             </div>
           </div>
         </div>
-        
+
         {/* Projects */}
         <div className="w-full flex justify-center " id="Projectsp">
-  <div className="flex justify-center items-center w-full min-h-svh gap-24 px-24">
-    <div className="flex flex-col w-full gap-4">
-      <div className="flex justify-center text-5xl font-black flex-wrap">
-        <div className="text-sky-400 w-48">
-          <div className="content">
-            <h2>Project</h2>
-            <h2>Project</h2>
+          <div className="flex justify-center items-center w-full min-h-svh gap-24 px-24">
+            <div className="flex flex-col w-full gap-4">
+              <div className="flex justify-center text-5xl font-black flex-wrap">
+                <div className="text-sky-400 w-48">
+                  <div className="content">
+                    <h2>Project</h2>
+                    <h2>Project</h2>
+                  </div>
+                </div>
+                <div>Experience</div>
+              </div>
+              <div className="flex flex-col justify-center gap-12 text-sm mt-12">
+                <a
+                  href="https://tworlds.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
+                  <div
+                    className="relative bg-cover bg-center  shadow-lg rounded-lg overflow-hidden flex items-center transition-all duration-300 hover:scale-105"
+                    style={{ backgroundImage: 'url("/images/card_tw.svg")' }}
+                  >
+                    {/* เลเยอร์สีดำและเบลอ */}
+                    <div className="absolute inset-0 bg-slate-800/80 backdrop-blur-xl transition-all duration-300 hover:bg-slate-800/50 hover:backdrop-blur-2xl"></div>
+
+                    {/* ข้อความ */}
+                    <div className="relative p-6 text-white w-full z-10">
+                      <h2 className="card-title text-sky-200 text-2xl">
+                        Tworlds
+                      </h2>
+                      <p className="leading-loose mt-4">
+                        ( Game 2D puzzle ) <br /> <br />
+                        <p>
+                          Tworlds is a puzzle-solving adventure game where
+                          players take on the role of a ghost trying to escape
+                          from a mystical forest. Along the way, they must solve
+                          various puzzles to uncover the path to freedom. The
+                          game challenges players to think in both the real
+                          world and the spirit world, creating a unique,
+                          immersive experience.
+                        </p>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="https://github.com/RattipongMark/sunkub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
+                  <div
+                    className="relative bg-cover bg-center  shadow-lg rounded-lg overflow-hidden flex items-center transition-all duration-300 hover:scale-105"
+                    style={{ backgroundImage: 'url("/images/card_sk.svg")' }}
+                  >
+                    {/* เลเยอร์สีดำและเบลอ */}
+                    <div className="absolute inset-0 bg-slate-800/80 backdrop-blur-xl transition-all duration-300 hover:bg-slate-800/50 hover:backdrop-blur-2xl"></div>
+
+                    {/* ข้อความ */}
+                    <div className="relative p-6 text-white w-full z-10">
+                      <h2 className="card-title text-sky-200 text-2xl">
+                        SUNKUB
+                      </h2>
+                      <p className="leading-loose mt-4">
+                        ( Stock Trading Website ) <br /> <br />
+                        covering all stages from initial database design to data
+                        querying.
+                        <li>Use LaravelFramework and MySQL</li>
+                        <li>
+                          Position: Fullstack Developer (specialized in
+                          Back-end)
+                        </li>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="https://github.com/RattipongMark/Visualization-and-Modeling"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
+                  <div
+                    className="relative bg-cover bg-center  shadow-lg rounded-lg overflow-hidden flex items-center transition-all duration-300 hover:scale-105"
+                    style={{ backgroundImage: 'url("/images/card_vm.svg")' }}
+                  >
+                    {/* เลเยอร์สีดำและเบลอ */}
+                    <div className="absolute inset-0 bg-slate-800/80 backdrop-blur-xl transition-all duration-300 hover:bg-slate-800/50 hover:backdrop-blur-2xl"></div>
+
+                    {/* ข้อความ */}
+                    <div className="relative p-6 text-white w-full z-10">
+                      <h2 className="card-title text-sky-200 text-2xl">
+                        Visual & Modeling
+                      </h2>
+                      <p className="leading-loose mt-4">
+                        ( Visualization and Modeling of E-commerce Customer
+                        Churn ) <br />
+                        Involves the creation of EDA, visualization, and
+                        modeling using an e-commerce customer churn dataset.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div>Experience</div>
-      </div>
-      <div className="flex flex-col justify-center gap-12 text-sm mt-12">
-        <a
-          href="https://tworlds.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full hover:opacity-90"
-        >
-          <div className="relative card bg-white-100 image-full max-h-96">
-            <figure className="overflow-hidden">
-              <img src="/images/card_tw.svg" className="w-full" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-sky-200 text-2xl">Tworlds</h2>
-              <p className="leading-loose mt-4">
-                ( Game 2D puzzle ) <br /> <br />
-                <p>
-                  Tworlds is a puzzle-solving adventure game where players take on the role of a ghost trying to escape
-                  from a mystical forest. Along the way, they must solve various puzzles to uncover the path to freedom. 
-                  The game challenges players to think in both the real world and the spirit world, creating a unique, immersive experience.
-                </p>
-              </p>
-            </div>
-          </div>
-        </a>
-        <a
-          href="https://github.com/RattipongMark/sunkub"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full hover:opacity-90"
-        >
-          <div className="card bg-base-100 image-full max-h-96">
-            <figure>
-              <img src="/images/card_sk.svg" className="w-full" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-sky-200 text-2xl">SUNKUB</h2>
-              <p className="leading-loose mt-4">
-                ( Stock Trading Website ) <br /> <br />
-                <li>covering all stages from initial database design to data querying.</li>
-                <li>Use Laravel Framework and MySQL</li>
-                <li>
-                  Position: Fullstack Developer (specialized in Back-end development, including data querying and function creation).
-                </li>
-              </p>
-            </div>
-          </div>
-        </a>
-        <a
-          href="https://github.com/RattipongMark/Visualization-and-Modeling"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full hover:opacity-90"
-        >
-          <div className="card bg-base-100 image-full max-h-96">
-            <figure>
-              <img src="/images/card_vm.svg" className="w-full" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-sky-200 text-2xl">Visual & Modeling</h2>
-              <p className="leading-loose mt-4">
-                ( Visualization and Modeling of E-commerce Customer Churn ) <br /> <br />
-                This is part of the Data Models course (CPE 232), involving the creation of EDA, visualization, and modeling using an e-commerce customer churn dataset.
-                <br />
-                <br />
-                Modeling using four methods:
-                <ol>
-                  <li>1. Decision Tree</li>
-                  <li>2. Logistic Regression</li>
-                  <li>3. K-Neighbors Classifier</li>
-                  <li>4. Random Forest Classifier</li>
-                </ol>
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
 
-<style jsx>{`
-  @media (max-width: 1024px) {
-    .gap-24 {
-      gap: 12px;
-    }
-    .max-h-96 {
-      max-height: 30vh;
-    }
-  }
-`}</style>
-
-        
         {/* Activities */}
-        <div className="w-full flex justify-center" id="Activitiesp">
-          <div
-            
-            className="flex flex-col justify-center items-center w-full min-h-svh gap-8 px-24 mt-36"
-          >
+        <div className="w-full flex justify-center my-16" id="Activitiesp">
+          <div className="flex flex-col justify-center items-center w-full min-h-svh gap-8 px-24">
             <div className="flex justify-items-start w-full pl-4 text-5xl font-black">
               <div>ACTIVIT</div>
               <div className="text-sky-400">IES</div>
             </div>
-            <div tabIndex={0} className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
+            <div
+              tabIndex={0}
+              className="collapse collapse-arrow bg-white shadow-lg px-4 py-4"
+            >
               <div className="collapse-title flex gap-4 py-8">
                 <div className="text-xl font-black text-sky-400">
                   KIN-D YOU-D
@@ -323,7 +328,10 @@ export default function Port() {
               </div>
             </div>
 
-            <div tabIndex={0} className="collapse collapse-arrow bg-white shadow-lg px-4 py-4">
+            <div
+              tabIndex={0}
+              className="collapse collapse-arrow bg-white shadow-lg px-4 py-4"
+            >
               <div className="collapse-title flex gap-4 py-8">
                 <div className="text-xl font-black text-sky-400">
                   SUMMER SCHOOL ON QUANTUM COMPUTING 2024
@@ -354,13 +362,12 @@ export default function Port() {
             </div>
           </div>
         </div>
-        <div className="w-full  flex justify-center"><div className="h-0.5 bg-stone-100 w-2/3 rounded-lg"></div></div> 
+        <div className="w-full  flex justify-center">
+          <div className="h-0.5 bg-stone-100 w-2/3 rounded-lg"></div>
+        </div>
         {/* Contact */}
         <div className="w-full flex justify-center" id="Contactp">
-          <div
-            
-            className="flex items-center justify-center w-full min-h-svh px-32 "
-          >
+          <div className="flex items-center justify-center w-full min-h-svh px-32 ">
             <div className="w-full flex flex-col justify-center w-full gap-16 px-16">
               <div className="flex w-full">
                 <div className="flex flex-col gap-8">
